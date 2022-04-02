@@ -10,6 +10,10 @@ h1 {
     color: tomato;
 }
 
+.articleHead {
+    font-size: 50px;
+}
+
 header, main, footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
