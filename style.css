@@ -1,3 +1,50 @@
+body {
+    border-left: 5px lightgray solid;
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 h1 {
-    color: red;
+    color: tomato;
+}
+
+header, main, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav > li > a {
+    color: lightgray
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-nav > li > a {
+    color: tomato;
+}
+
+.continue {
+    align-self: right;
+    color: tomato;
+    float: right;
 }
